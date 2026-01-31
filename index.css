@@ -1,0 +1,167 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+ 
+}
+#container{
+height:40px;
+z-index: 100;
+}
+#container ul {
+margin:0;
+padding:0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+margin-top: 20px; 
+margin-left:30px;
+margin-right: 20px;
+}
+#container ul li{
+    text-decoration: none;
+    list-style-type: none;
+    scale:1.3;
+    color:blanchedalmond
+}
+
+
+ .list {
+position: relative;
+top:0;
+
+
+}
+
+.list .item {
+position: relative;
+   
+
+}
+
+.list .item video {
+    position:absolute;
+    object-fit: cover;
+    width: 100%; 
+    overflow: hidden;
+    z-index:-1;
+    margin-top:-60px;
+   
+}
+.content{
+margin-top:10%;
+    position: absolute;
+    width: 1140px;
+    max-width: 40%;
+    left: 25%;
+    transform: translateX(-50%);
+    color: beige;
+    background: transparent;
+    text-shadow: 0 5px 10px black;
+}
+
+.content .author{
+    font-weight: bold;
+   letter-spacing: 10px;
+}
+.content .topic ,.content .slider {
+font-size: 5em;
+list-style: 1.3em;
+text-shadow: 5px 5px 1px rgba(229, 229, 175, 0.276);
+
+}
+
+ .item-2{
+    position: absolute;
+    bottom:10%;
+    right:40px;
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    width:500px;
+    height:300px;
+    z-index: 500;   
+    background: transparent;
+    color: white;
+}
+
+.item-2 .samurai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:125px;
+    height:250px;
+ box-sizing: border-box;
+ background: transparent;
+ z-index: 501;
+margin-left:10px;
+border-radius: 30px;
+}
+.item-2 .elesis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:125px;
+    height:250px;
+ box-sizing: border-box;
+ background: transparent;
+ z-index: 501;
+
+border-radius: 30px;
+}
+.item-2 .battlefield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:125px;
+    height:250px;
+ box-sizing: border-box;
+ background: transparent;
+ z-index: 501;
+
+border-radius: 30px;
+}
+.item-2 .fantasy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:120px;
+    height:250px;
+    overflow: hidden;
+ box-sizing: border-box;
+ background: transparent;
+ z-index: 501;
+border-radius: 30px;
+margin-right: 40px;
+}
+.item-2 .elesis button{
+    background: transparent;
+ font-size: 1.4em;
+ border-radius: 20px;
+ color:blueviolet
+}
+.item-2 .battlefield button{
+    background: transparent;
+ font-size: 1.4em;
+ border-radius: 20px;
+ color:blueviolet
+}
+.item-2 .samurai button{
+    background: transparent;
+ font-size: 1.4em;
+ border-radius: 20px;
+ color:blueviolet
+}
+.item-2 .fantasy button{
+    background: transparent;
+ font-size: 1.4em;
+ border-radius: 20px;
+ color:blueviolet;
+ margin-right: 30px;    
+}
+
+
+
